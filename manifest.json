@@ -16,7 +16,7 @@
                 "highcharts": "2.3.5"
         },
         "demo": [
-                "http://jsfiddle.net/pmmu3/337/"
+                "http://jsfiddle.net/pmmu3/338/"
         ],
         "description": "Plugin that allows grouped categories for Highcharts.",
         "keywords": [

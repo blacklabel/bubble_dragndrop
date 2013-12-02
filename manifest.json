@@ -1,0 +1,30 @@
+{
+        "name": "Bubble-dragnDrop",
+        "version": "0.0.1",
+        "title": "Bubble-dragnDrop",
+        "author": {
+                "name": "Black Label",
+                "url": "http://www.blacklabel.pl/"
+        },
+        "licenses": [
+                {
+                        "type": "Creative Commons Attribution (CC)",
+                        "url": "https://github.com/blacklabel/bubble_dragndrop/blob/master/license.txt"
+                }
+        ],
+        "dependencies": {
+                "highcharts": "2.3.5"
+        },
+        "demo": [
+                "http://jsfiddle.net/pmmu3/337/"
+        ],
+        "description": "Plugin that allows grouped categories for Highcharts.",
+        "keywords": [
+                "bubble",
+                "dragndrop"
+        ],
+        "homepage": "http://blacklabel.github.io/bubble_dragndrop/",        
+        "docs": "https://github.com/blacklabel/bubble_dragndrop/",        
+        "bugs": "https://github.com/blacklabel/bubble_dragndrop/issues",
+        "download": "https://github.com/blacklabel/bubble_dragndrop/archive/master.zip"
+}

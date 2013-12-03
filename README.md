@@ -1,6 +1,6 @@
 <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
 <script src="http://code.highcharts.com/highcharts.js"></script>
-<script src="./bubble-dragAdrop.js"></script>
+<script src="./bubble-dragndrop.js"></script>
 
 # Bubble drag and drop - Highcharts module
 
@@ -37,7 +37,7 @@ window.chart = new Highcharts.Chart({
 
 ### Installation
 
-* Like any other Highcharts module (e.g. exporting), add `<script>` tag pointing to `bubble-dragAdrop.js` below Highcharts script tag.
+* Like any other Highcharts module (e.g. exporting), add `<script>` tag pointing to `bubble-dragndrop.js` below Highcharts script tag.
 
 ### Code
 

@@ -1,7 +1,7 @@
 {
-        "name": "Bubble-dragnDrop",
+        "name": "Bubble-dragndrop",
         "version": "0.0.1",
-        "title": "Bubble-dragnDrop",
+        "title": "Bubble-dragndrop",
         "author": {
                 "name": "Black Label",
                 "url": "http://www.blacklabel.pl/"
@@ -23,6 +23,17 @@
                 "bubble",
                 "dragndrop"
         ],
+        "maintainers": [
+		{
+			"name": "Sebastian Bochan",
+			"email": "sebastian2@blacklabel.pl",
+			"url": "http://www.blacklabel.pl"
+		},{
+			"name": "Paweł Fus",
+			"email": "pawel@blacklabel.pl",
+			"url": "http://www.blacklabel.pl"
+		}
+	],
         "homepage": "http://blacklabel.github.io/bubble_dragndrop/",        
         "docs": "https://github.com/blacklabel/bubble_dragndrop/",        
         "bugs": "https://github.com/blacklabel/bubble_dragndrop/issues",

@@ -16,7 +16,7 @@
                 "highcharts": "2.3.5"
         },
         "demo": [
-                "http://jsfiddle.net/pmmu3/339/"
+                "http://jsfiddle.net/pmmu3/340/"
         ],
         "description": "Plugin that allows drag and drop bubbles for Highcharts.",
         "keywords": [

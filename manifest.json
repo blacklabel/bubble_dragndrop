@@ -1,0 +1,41 @@
+{
+        "name": "Bubble-Dragndrop",
+        "version": "1.0.3",
+        "title": "Bubble-Dragndrop",
+        "author": {
+                "name": "Black Label",
+                "url": "http://www.blacklabel.pl/"
+        },
+        "licenses": [
+                {
+                        "type": "Creative Commons Attribution (CC)",
+                        "url": "https://github.com/blacklabel/bubble_dragndrop/blob/master/license.txt"
+                }
+        ],
+        "dependencies": {
+                "highcharts": "2.3.5"
+        },
+        "demo": [
+                "http://jsfiddle.net/BlackLabel/BHGk6/"
+        ],
+        "description": "Plugin that allows drag and drop bubbles for Highcharts.",
+        "keywords": [
+                "bubble",
+                "dragndrop"
+        ],
+        "maintainers": [
+    {
+      "name": "Sebastian Bochan",
+      "email": "sebastian2@blacklabel.pl",
+      "url": "http://www.blacklabel.pl"
+    },{
+      "name": "Paweł Fus",
+      "email": "pawel@blacklabel.pl",
+      "url": "http://www.blacklabel.pl"
+    }
+  ],
+        "homepage": "http://blacklabel.github.io/bubble_dragndrop/",        
+        "docs": "https://github.com/blacklabel/bubble_dragndrop/",        
+        "bugs": "https://github.com/blacklabel/bubble_dragndrop/issues",
+        "download": "https://github.com/blacklabel/bubble_dragndrop/archive/master.zip"
+}

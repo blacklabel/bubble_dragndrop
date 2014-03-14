@@ -9,7 +9,6 @@
 (function(HC){
 /*jshint expr:true, boss:true */
 
-    (function (HC) {
         var bubDrag = HC.SVGElement.prototype.dragAndDrop = {
             //start
             start: function (e, po) {
@@ -105,4 +104,4 @@
                 });
             });
         });
-    })(Highcharts);
+})(Highcharts);

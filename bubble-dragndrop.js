@@ -54,18 +54,20 @@
             step: function (e, p, po) {
                 e.preventDefault();
 
+
                 var ch = po.series.chart,
-                    parentOffset = $(chart.container).offset(),
                     pageX = e.pageX,
                     pageY = e.pageY,
-                    offsetX = pageX - parentOffset.left, 
-                    offsetY = pageY - parentOffset.top,
-                    x, y, tmpX, tmpY
+                    offsetX = pageX - chart.container.offsetLeft, 
+                    offsetY = pageY - chart.container.offsetTop,
+                    x, y, tmpX, tmpY;
+
 
                 if (e.originalEvent.changedTouches) {
                     pageX = e.originalEvent.changedTouches[0].pageX;
                     pageY = e.originalEvent.changedTouches[0].pageY;
                 }
+
 
                 // move element
                 p.translate(pageX - p.clickX, pageY - p.clickY);

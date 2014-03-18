@@ -58,9 +58,7 @@
                 var ch = po.series.chart,
                     pageX = e.pageX,
                     pageY = e.pageY,
-                    offsetX = pageX - ch.container.offsetLeft, 
-                    offsetY = pageY - ch.container.offsetTop,
-                    x, y, tmpX, tmpY;
+                    offsetX, offsetY, x, y, tmpX, tmpY;
 
 
                 if (e.originalEvent.changedTouches) {
@@ -68,6 +66,9 @@
                     pageY = e.originalEvent.changedTouches[0].pageY;
                 }
 
+
+                offsetX = pageX - ch.container.offsetLeft; 
+                offsetY = pageY - ch.container.offsetTop;
 
                 // move element
                 p.translate(pageX - p.clickX, pageY - p.clickY);

@@ -45,7 +45,7 @@
                 p.clickX = epageX - p.translateX;
                 p.clickY = epageY - p.translateY;
                
-                p.offsetXdrag = epageX -(ch.container.offsetLeft + ch.plotLeft + po.plotX);
+                p.offsetXdrag = epageX - (ch.container.offsetLeft + ch.plotLeft + po.plotX);
                 p.offsetYdrag = epageY - (ch.container.offsetTop + ch.plotTop + po.plotY);
                 
                 
@@ -54,27 +54,30 @@
             step: function (e, p, po) {
                 e.preventDefault();
 
-                var x, y, pageX, pageY, tmpX, tmpY,
-                    ch = po.series.chart;
+                var ch = po.series.chart,
+                    parentOffset = $(chart.container).offset(),
+                    pageX = e.pageX,
+                    pageY = e.pageY,
+                    offsetX = pageX - parentOffset.left, 
+                    offsetY = pageY - parentOffset.top,
+                    x, y, tmpX, tmpY
 
                 if (e.originalEvent.changedTouches) {
                     pageX = e.originalEvent.changedTouches[0].pageX;
                     pageY = e.originalEvent.changedTouches[0].pageY;
-                } else {
-                    pageX = e.pageX;
-                    pageY = e.pageY;
                 }
+
                 // move element
                 p.translate(pageX - p.clickX, pageY - p.clickY);
                 
                 po.update({
-                    x: ch.xAxis[0].toValue(e.offsetX - p.offsetXdrag) ,
-                    y: ch.yAxis[0].toValue(e.offsetY - p.offsetYdrag)
+                    x: ch.xAxis[0].toValue(offsetX - p.offsetXdrag),
+                    y: ch.yAxis[0].toValue(offsetY - p.offsetYdrag)
                 }, false, false);
 
                 if (ch.tooltip.options.enabled) ch.tooltip.refresh(po);
                 
-                if(e.offsetX < ch.plotLeft || e.offsetY < ch.plotTop || e.offsetY > (ch.plotHeight + ch.plotTop) || e.offsetX > (ch.plotWidth + ch.plotLeft)) this.stop(e,po);
+                if(offsetX < ch.plotLeft || offsetY < ch.plotTop || offsetY > (ch.plotHeight + ch.plotTop) || offsetX > (ch.plotWidth + ch.plotLeft)) this.stop(e,po);
             },
             //stop
             stop: function (el, po) {

@@ -58,8 +58,8 @@
                 var ch = po.series.chart,
                     pageX = e.pageX,
                     pageY = e.pageY,
-                    offsetX = pageX - chart.container.offsetLeft, 
-                    offsetY = pageY - chart.container.offsetTop,
+                    offsetX = pageX - ch.container.offsetLeft, 
+                    offsetY = pageY - ch.container.offsetTop,
                     x, y, tmpX, tmpY;
 
 

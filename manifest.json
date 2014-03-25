@@ -1,6 +1,6 @@
 {
         "name": "Bubble-Dragndrop",
-        "version": "1.0.4",
+        "version": "1.0.5",
         "title": "Bubble-Dragndrop",
         "author": {
                 "name": "Black Label",
@@ -18,7 +18,7 @@
         "demo": [
                 "http://jsfiddle.net/BlackLabel/BHGk6/"
         ],
-        "description": "Plugin that allows drag and drop bubbles for Highcharts. The newest version is published as \"draggable points\" http://www.highcharts.com/plugin-registry/single/3/Draggable-Points, because this module will not be develop in the future.",
+        "description": "Plugin that allows drag and drop bubbles for Highcharts. The newest version is published as \"draggable points\" http://www.highcharts.com/plugin-registry/single/3/Draggable-Points, because this module will not be developed in the future.",
         "keywords": [
                 "bubble",
                 "dragndrop"

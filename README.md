@@ -2,7 +2,7 @@
 <script src="http://code.highcharts.com/highcharts.js"></script>
 <script src="./bubble-dragndrop.js"></script>
 
-# Bubble drag and drop - Highcharts module
+# Bubble drag n drop - Highcharts module
 
 Go to project page to see this module in action: [http://blacklabel.github.io/bubble_dragndrop/](http://blacklabel.github.io/bubble_dragndrop/)
 

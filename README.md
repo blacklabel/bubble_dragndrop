@@ -1,3 +1,5 @@
+### ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) Bubble drag n drop are a part of Highcharts 6.2+ as a module. This plugin was build for older versions of Highcharts.
+
 <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
 <script src="http://code.highcharts.com/highcharts.js"></script>
 <script src="./bubble-dragndrop.js"></script>
